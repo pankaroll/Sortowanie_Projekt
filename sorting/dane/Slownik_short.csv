@@ -1,0 +1,24 @@
+GR;PODGR;RODZ;TYP;OPIS;NR_ODPADU
+1;;;B;Odpady powstające przy poszukiwaniu, wydobywaniu, fizycznej i chemicznej przeróbce rud oraz innych kopalin;1
+1;1.0;;B;Odpady z wydobywania kopalin;2
+1;1.0;1.0;B;Odpady z wydobywania rud metali (z wyłączeniem 01 01 80);3
+1;1.0;2.0;B;Odpady z wydobywania rud metali (z wyłączeniem 01 01 80);4
+1;1.0;80.0;B;Odpady skalne z górnictwa miedzi, cynku i ołowiu;5
+1;3.0;;B;Odpady z fizycznej i chemicznej przeróbki rud metali;6
+1;3.0;4.0;N;Odpady z przeróbki rud siarczkowych powodujące samoczynne zakwaszenie środowiska w czasie składowania;7
+1;3.0;5.0;N;Inne odpady poprzeróbcze zawierające substancje niebezpieczne (z wyłączeniem 01 03 80);8
+1;3.0;6.0;B;Inne odpady poprzeróbcze niż wymienione w 01 03 04, 01 03 05, 01 03 80 i 01 03 81;9
+1;3.0;7.0;N;Inne odpady zawierające substancje niebezpieczne z fizycznej i chemicznej przeróbki rud metali;10
+1;3.0;8.0;B;Odpady w postaci pyłów i proszków inne niż wymienione w 01 03 07;11
+1;3.0;9.0;B;Czerwony szlam powstający przy produkcji tlenku glinu inny niż wymieniony w 01 03 07;12
+1;3.0;80.0;N;Odpady z flotacyjnego wzbogacania rud metali nieżelaznych zawierające substancje niebezpieczne;13
+1;3.0;81.0;B;Odpady z flotacyjnego wzbogacania rud metali nieżelaznych inne niż wymienione w 01 03 80;14
+1;3.0;99.0;B;Inne nie wymienione odpady;15
+1;4.0;;B;Odpady z fizycznej i chemicznej przeróbki kopalin innych niż rudy metali;16
+1;4.0;7.0;N;Odpady zawierające niebezpieczne substancje z fizycznej i chemicznej przeróbki kopalin innych niż rudy metali;17
+1;4.0;8.0;B;Odpady żwiru lub skruszone skały inne niż wymienione w 01 04 07;18
+1;4.0;9.0;B;Odpadowe piaski i iły;19
+1;4.0;10.0;B;Odpady w postaci pyłów i proszków inne niż wymienione w 01 04 07;20
+1;4.0;11.0;B;Odpady powstające przy wzbogacaniu soli kamiennej i potasowej inne niż wymienione w 01 04 07;21
+1;4.0;12.0;B;Odpady powstające przy płukaniu i oczyszczaniu kopalin inne niż wymienione w 01 04 07 i 01 04 11;22
+1;4.0;13.0;B;Odpady powstające przy cięciu i obróbce postaciowej skał inne niż wymienione w 01 04 07;23

@@ -1,0 +1,26 @@
+import java.util.List;
+
+public class DisplayCSV {
+    public static void main(String[] args) {
+        String inputFilePath = "sorting/dane/Dostawcy_short.csv";
+
+        CsvReader reader = new CsvReader();
+        List<Record_Dostawcy> dostawcy = reader.readCsvDostawcy(inputFilePath);
+        inputFilePath = "sorting/dane/Magazynp_short.csv";
+        List<Record_Magazyn> magazyn = reader.readCsvMagazyn(inputFilePath);
+        inputFilePath = "sorting/dane/Slownik_short.csv";
+        List<Record_Slownik> slownik = reader.readCsvSlownik(inputFilePath);
+
+        for (Record_Dostawcy record : dostawcy) {
+            System.out.println(record.getNrKlienta() + " " + record.getMiejscowosc() + " " + record.getUlica() + " " + record.getNazwSkr());
+        }
+
+        for (Record_Magazyn record : magazyn) {
+            System.out.println(record.getNrKarty() + " " + record.getDate() + " " + record.getMasa() + " " + record.getJedn() + " " + record.getFirma() + " " + record.getNrMag() + " " + record.getNrOdp() + " " + record.getNrKlienta());
+        }
+
+        for (Record_Slownik record : slownik) {
+            System.out.println(record.getGr() + " " + record.getPodGr() + " " + record.getRodz() + " " + record.getTyp() + " " + record.getOpis() + " " + record.getNrOdp());
+        }
+    }
+}
